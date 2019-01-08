@@ -16,6 +16,6 @@ How to Use (Setup)(Not Recommended - Only for colleagues):
 3. Insert "متن" where you want to put the quote.
 4. Make sure Office programmes are closed.
 5. Run "setup.bat" as administrator.
-6. Enjoy!
+6. Open outlook and Enjoy!
 
 Thanks for your time, Have a nice quoted signature! :D
