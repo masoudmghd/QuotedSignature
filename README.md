@@ -9,3 +9,8 @@ How to Use :
 4. Insert "متن" where you want to put the quote.
 5. Close outlook and open it again.
 6. Your signatue will have a random quote 
+
+
+I will create a setup procedure in "/bin/" folder later.
+
+Thanks for your time, Have a nice quoted signature! :D
