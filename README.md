@@ -1,7 +1,7 @@
 # QuotedSignature
 A VBA Macro for updating Outlook 2016 signature upon start with a quote.
 
-How to Use :
+How to Use (Manual)(Recommended):
 1. Import the .bas file to your outlook.
 2. Call the sigUpdate() upon outlook startup.
 3. Copy quote.xlsx to "\users\[username]\appdata\Microsoft\signatures\".
@@ -10,7 +10,12 @@ How to Use :
 5. Close outlook and open it again.
 6. Your signatue will have a random quote 
 
-
-I will create a setup procedure in "/bin/" folder later.
+How to Use (Setup)(Recommended):
+1. Download all the files in "/bin/"
+2. Create a signature and call it "signature".
+3. Insert "متن" where you want to put the quote.
+4. Make sure Office programmes are closed.
+5. Run "setup.bat" as administrator.
+6. Enjoy!
 
 Thanks for your time, Have a nice quoted signature! :D
