@@ -10,7 +10,7 @@ How to Use (Manual)(Recommended):
 5. Close outlook and open it again.
 6. Your signatue will have a random quote 
 
-How to Use (Setup)(Recommended):
+How to Use (Setup)(Not Recommended-Only for colleagues):
 1. Download all the files in "/bin/"
 2. Create a signature and call it "signature".
 3. Insert "متن" where you want to put the quote.
