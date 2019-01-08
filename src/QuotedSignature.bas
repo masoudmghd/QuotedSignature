@@ -35,7 +35,7 @@ quoteUrl = Environ("AppData") + "\Microsoft\Signatures\quote.xlsx"
 Set qfile = CreateObject("Excel.application")
 Set qworkbook = qfile.Workbooks.Open(quoteUrl)
 Set qsheet = qworkbook.Worksheets(1)
-
+Randomize
 randNum = Int((126 - 1 + 1) * Rnd + 1)
 dquote = qsheet.Cells(randNum, 2)
 dayQu = dquote
@@ -47,7 +47,8 @@ Sub resetSig()
 Dim fso As Object
 Set fso = CreateObject("Scripting.FileSystemObject")
 url2 = Environ("AppData") + "\Microsoft\Signatures\temp.txt"
-
-Call fso.deletefile(url2)
-
+If fso.fileexists(url2) = True Then
+    Call fso.deletefile(url2)
+End If
+MsgBox "«„÷«Ì ÃœÌœ «‰ —« »”«“Ìœ..."
 End Sub
